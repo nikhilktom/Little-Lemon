@@ -1,0 +1,64 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDEFEE;
+    padding: 100px 100px;
+    
+  }
+  
+  @media screen and (min-width: 768px) {
+    .about-us {
+      flex-direction: row;
+      height: auto;
+    }
+  }
+  
+  .hero-text {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .hero-text h1 {
+    font-family: 'Marzi text';
+    color: #F4CE14;
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text h2 {
+    font-family: 'Marzi', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #495E57;
+  }
+  
+  .about-subtext {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #495E57;
+  }
+  
+  .double-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .about-1 {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-left: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .about-1 {
+      max-height: 500px;
+      max-width: none;
+      margin-left: 100px;
+    }
+  }
+  
