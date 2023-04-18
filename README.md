@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Little Lemon Restaurant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a responsive website for Little Lemon Restaurant, a fictional restaurant that allows customers to reserve a table and view the highlights and dishes of the week. The website was built using React and designed using Figma.
 
-## Available Scripts
+## Table of Contents
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
 
-In the project directory, you can run:
 
-### `npm start`
+## Installation
+To install the project, first clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+git clone https://github.com/nikhilktom/Little-Lemon.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Then, navigate to the project directory and install the dependencies:
 
-### `npm test`
+cd my-app
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To start the development server, run: npm start
 
-### `npm run build`
+This will start the website at http://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To build the website for production, run: npm run build
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will create an optimized build of the website in the `build` directory.
 
-### `npm run eject`
+## Screenshots
+Here are some screenshots of the Little Lemon Restaurant website:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Home Page](https://github.com/nikhilktom/Little-Lemon/blob/2972ca29534e5c727bed38c11567fb15eff34aa3/screenshots/hero%20section.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Menu Page](screenshots/highlights.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Reservation Page](screenshots/About,footer.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Contact Page](https://github.com/nikhilktom/Little-Lemon/blob/2972ca29534e5c727bed38c11567fb15eff34aa3/screenshots/Table%20reservation.png)
 
-## Learn More
+## Contributing
+Contributions to the project are welcome! If you find a bug or have a feature request, please open an issue on the [GitHub repository](https://github.com/nikhilktom/Little-Lemon.git).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
