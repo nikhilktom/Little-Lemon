@@ -7,7 +7,7 @@ import * as yup from "yup";
 const schema = yup.object({
     name: yup.string().required("Full name is a required field!"),
     email: yup.string().required("Email is a required field!").email("Email is not valid!"),
-    telephone: yup.string().required("Telephone is a required field!").matches(/^(\+\d{2,3}\s)?\(?\d{3}\)?[\s.-]\d{2}[\s.-]\d{3}[\s.-]\d{4}$/, "Phone number must match the form 233 00 000 0000"),
+    telephone: yup.string().required("Telephone is a required field!").matches(/^((\+49)|(0))( ?)[1-9]\d{1,4}( ?)[-\/] ?\d{2,9}$/, "Phone number must match the form +49 123 4567890 or 0123 4567890"),
     guests: yup.number().min(1, "There must be at least 1 guest!").required("Please specify number of guests per table!"),
     date: yup.string().required("Please select date and time!"),
 })
@@ -58,11 +58,10 @@ function Form() {
                 </div>
                 <div className="field guest">
                     <label htmlFor="guests">Guests</label>
-                    <input type="number" placeholder="2" name="guests" {...register("guests")}/> 
+                    <input type="number" placeholder="2" name="guests" {...register("guests")}/>
                     <span className="error-message">{errors.guests?.message}</span>
                 </div>
                 {/*</div>*/}
-                        
                 <div className="field">
                     <label htmlFor="date">Date & Time</label>
                     <input type="datetime-local" name="date" {...register("date")} />
