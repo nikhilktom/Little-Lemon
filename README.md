@@ -1,6 +1,7 @@
 # Little Lemon Restaurant
 
 This is a responsive website for Little Lemon Restaurant, a fictional restaurant that allows customers to reserve a table and view the highlights and dishes of the week. The website was built using React and designed using Figma.
+live :https://little-lemonn.netlify.app
 
 ## Table of Contents
 - [Installation](#installation)
